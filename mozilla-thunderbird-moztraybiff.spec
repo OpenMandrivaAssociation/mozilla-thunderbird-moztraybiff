@@ -1,6 +1,6 @@
 %define rname           mozTrayBiff
 %define pkgname         moztraybiff
-%define tbver           2.0b2
+%define tbver           2.0.0.0
 %define tbdir           %{_libdir}/thunderbird-%{tbver}
 %define tbextdir        %{tbdir}-extensions
 %define tbextuuid       \{2e1b75f1-6b5a-4f1d-89b4-424f636e4fba\}
@@ -8,7 +8,7 @@
 
 Name:           mozilla-thunderbird-%{pkgname}
 Version:        1.2.2
-Release:        %mkrel 9
+Release:        %mkrel 10
 Epoch:          0
 Summary:        Mozilla New Mail Icon
 URL:            http://moztraybiff.mozdev.org/
