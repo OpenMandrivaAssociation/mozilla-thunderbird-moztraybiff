@@ -23,6 +23,7 @@ BuildRequires:  gtk2-devel
 BuildRequires:  mozilla-thunderbird-devel = 0:%{tbver}
 BuildRequires:  libnspr-devel
 BuildRequires:  zip
+BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Mozilla New Mail Icon is an extension which displays an icon in the 
