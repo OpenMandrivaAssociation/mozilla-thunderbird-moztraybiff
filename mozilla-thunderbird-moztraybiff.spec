@@ -1,6 +1,6 @@
 %define rname           mozTrayBiff
 %define pkgname         moztraybiff
-%define tbver           2.0.0.12
+%define tbver           2.0.0.14
 %define tbdir           %{_libdir}/thunderbird-%{tbver}
 %define tbextdir        %{tbdir}-extensions
 %define tbextuuid       \{2e1b75f1-6b5a-4f1d-89b4-424f636e4fba\}
@@ -8,7 +8,7 @@
 
 Name:           mozilla-thunderbird-%{pkgname}
 Version:        1.2.3
-Release:        %mkrel 4
+Release:        %mkrel 5
 Epoch:          0
 Summary:        Mozilla New Mail Icon
 URL:            http://moztraybiff.mozdev.org/
@@ -96,5 +96,3 @@ TMPDIR= TB_TMPDIR=`/bin/mktemp -d -q -p /tmp -t %{name}.XXXXXXXXXX` && {
 %else
 %{tbextdir}/mozTrayBiff-%{version}-tb%{tbver}-Linux_-gcc3.xpi
 %endif
-
-
