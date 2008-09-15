@@ -7,8 +7,8 @@
 %define xpi             0
 
 Name:           mozilla-thunderbird-%{pkgname}
-Version:        1.2.3
-Release:        %mkrel 6
+Version:        1.2.4
+Release:        %mkrel 1
 Epoch:          0
 Summary:        Mozilla New Mail Icon
 URL:            http://moztraybiff.mozdev.org/
