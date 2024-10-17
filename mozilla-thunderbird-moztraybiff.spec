@@ -11,7 +11,7 @@ Version:        1.2.4
 Release:        %mkrel 7
 Epoch:          0
 Summary:        Mozilla New Mail Icon
-URL:            http://moztraybiff.mozdev.org/
+URL:            https://moztraybiff.mozdev.org/
 Source0:        http://downloads.mozdev.org/moztraybiff/mozTrayBiff-%{version}.tar.gz
 Source1:        %{name}-chrome.manifest
 Patch0:         %{name}-nspr.patch
