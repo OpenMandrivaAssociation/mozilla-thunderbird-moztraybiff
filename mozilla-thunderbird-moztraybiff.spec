@@ -19,6 +19,7 @@ License:        LGPL
 Group:          Networking/Mail
 Requires(post):   mozilla-thunderbird = 0:%{tbver}
 Requires(postun): mozilla-thunderbird = 0:%{tbver}
+BuildRequires:	make
 BuildRequires:  gtk2-devel
 BuildRequires:  mozilla-thunderbird-devel = 0:%{tbver}
 BuildRequires:  libnspr-devel
