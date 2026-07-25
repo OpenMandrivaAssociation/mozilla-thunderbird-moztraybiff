@@ -8,7 +8,7 @@
 
 Name:           mozilla-thunderbird-%{pkgname}
 Version:        1.2.4
-Release:        %mkrel 7
+Release:        8
 Epoch:          0
 Summary:        Mozilla New Mail Icon
 URL:            https://moztraybiff.mozdev.org/
